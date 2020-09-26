@@ -1,22 +1,41 @@
 
-body,html
- {
-    height: 100%;
-    margin: 0;
-}
-
-
-.container {
-   
-        background-image: url(./backgroud/wallpaper1.jpg);
+.figura {
+        background-image: url(./image/backgroud/wallpaper1.jpg);
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         background-size: cover;
-        opacity: .35;
- 
-
-        
+        opacity: .5;
+        background-attachment: fixed;
+        z-index: -1;
 }
+
+.btn-grup {
+        margin: auto;
+        /*Position central */
+        width: 50%;
+        /*Afastando so Botoes */
+        padding: 10px;
+        /*Usando o display para centralisar o conteiner */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 250px;
+        margin-top: 30vh;
+        opacity: none;
+}
+
+.btn {
+        margin: 15px;
+        font-size: 25px;
+        font-weight: bold;
+        border: none;
+        background: none;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+
+}
+
