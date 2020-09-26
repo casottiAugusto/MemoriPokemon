@@ -4,12 +4,12 @@ import './app.css';
 
 
 function App() {
+ 
   return (
     < div className="container" >
       <div className="figura" > </div>
       <div className="btn-grup">
-        <Link to="/memoria" className='btn'>Novo jogo</Link>
-
+        <Link to="/novoJogo" className='btn'>Novo jogo</Link>
       </div>
     </div>
   )

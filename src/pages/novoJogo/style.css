@@ -1,0 +1,12 @@
+.novoJogo {
+    background-image: url(../../image/backgroud/wallpaper3.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: .5;
+    background-attachment: fixed;
+    z-index: -1;
+}
